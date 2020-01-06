@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '435b5e0f-fc9b-4806-85a0-7a3e15955a66'
   imageRepository: 'cassieluoliazurevotingappredis'
   containerRegistry: 'hellocontainerregistry.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/azure-vote/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'hellocontainerregistry288c-auth'
 
